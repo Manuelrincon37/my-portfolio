@@ -3,7 +3,7 @@ import { projects } from './data/projects'
 export const Portfolio = () => {
   return (
     <div className="page">
-      <h1 className="heading">Protfolio</h1>
+      <h1 className="heading">Portfolio</h1>
 
     <section className='projects'>
 
@@ -18,8 +18,8 @@ export const Portfolio = () => {
 
           </div>
 
-          <h2><Link to={`/projects/${project.id}`}>{project.name}</Link></h2>
           <span>{project.category}</span>
+          <h2><Link to={`/projects/${project.id}`}>{project.name}</Link></h2>
           <p>{project.tecnologies}</p>
         </article>)
       })

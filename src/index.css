@@ -28,6 +28,7 @@ header {
   align-items: center;
   border-bottom: 2px solid rgba(255, 255, 255, 0.87);
   margin-bottom: 35px;
+
 }
 
 header .logo {
@@ -146,9 +147,10 @@ header a:hover {
 }
 
 .page .heading {
-  font-size: 55px;
+  font-size: 60px;
   font-weight: 400;
-  font-style: normal;
+  font-style: italic;
+  margin-left: 20px;
 }
 
 .home p {
@@ -186,38 +188,64 @@ button:hover {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .project-item {
-  flex-basis: 30%;
+  flex-basis: 25%;
   flex-grow: 1;
   margin: 20px;
+  ;
 }
 
 .project-item .mask {
-  width: 100%;
+  width: 90%;
   height: auto;
   overflow: hidden;
   border: 1px solid #ccc;
-  box-shadow: 0px 0px 15px #54c9ec;
+  box-shadow: 0px 0px 10px #54c9ec;
+  transition: all 600ms;
+
 }
 
 .project-item img {
   width: 100%;
+
+}
+
+.project-item .mask:hover {
+  transform: scale(1.1);
+  margin-right: 30%;
 }
 
 .project-item span {
   color: #54c9ec;
-  margin-top: 25px;
+  margin-top: 20px;
   display: block;
 }
 
 .projects h2 {
   display: block;
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 .projects a {
-  margin-top: 5px;
   text-decoration: none;
+  transition: all 250ms;
+  color: azure;
+}
+
+.projects a:hover {
+  color: #54c9ec;
+}
+
+.project-item p {
+  display: block;
+  font-size: 15px;
+  margin-top: 5px;
+  color: #bbb7b7;
+  border-top: 1px solid #ddd;
+  width: 90%;
+  padding-top: 10px;
 }
