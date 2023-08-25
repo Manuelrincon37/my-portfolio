@@ -3,7 +3,7 @@ export const Index = () => {
   return (
     <div className='home'>
 
-      <h1>Self-taught <strong>Software Developer </strong>, enthusiastic about expanding my knowledge and skills evrey day.</h1>
+      <h1>Self-Taught <strong>Software Developer </strong> and Technology Enthusiast, Crafting Innovative Solutions </h1>
 
       <h2>Alwais learning new ways to solve problems.
         <Link to='/contact'> Contact me!</Link>

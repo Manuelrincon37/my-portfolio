@@ -5,7 +5,7 @@ export const projects = [
     url: 'https://github.com/Manuelrincon37/blog-API-REST.git',
     tecnologies: 'Node.js, MongoDB, Express.js, Multer, Validator, Mongoose',
     category: 'Backend development',
-    description: 'Built to implement it on a project of a Web blog',
+    description: 'Built for Implementation in a Web Blog Project',
     img: '/public/images/node_express.jpg'
 
   },
